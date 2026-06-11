@@ -1,0 +1,6 @@
+{
+  "name": "Top Bio Link",
+  "description": "Landing page principal da Top Bio Link. Venda de sites profissionais, acessíveis e modernos para pequenos negócios por apenas 12x de R$ 30.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

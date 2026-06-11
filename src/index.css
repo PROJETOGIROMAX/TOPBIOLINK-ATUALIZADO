@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Sleek Interface Premium Theme Classes */
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F2D06B 100%);
+}
+
+.gold-text {
+  background: linear-gradient(135deg, #D4AF37 0%, #F2D06B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold {
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.hover-gold:hover {
+  border-color: #D4AF37;
+  transform: translateY(-2.5px);
+  box-shadow: 0 10px 30px -10px rgba(212, 175, 55, 0.15);
+}
+
+.card-shadow {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+/* Custom golden scrollbar for container divs & page */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 10px;
+}
+
+/* Custom golden text-shadow for a glossy luxury accent */
+.text-shadow-gold {
+  text-shadow: 0 0 12px rgba(212, 175, 55, 0.35);
+}
+
+/* Hide scrollbars for categories tray on mobile */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
